@@ -1,0 +1,6 @@
+// Release build configuration for RideCompareLauncher. Mirrors
+// Debug.xcconfig — see that file's comments.
+GOOGLE_PLACES_API_KEY =
+UBER_CLIENT_ID =
+
+#include? "Secrets.xcconfig"

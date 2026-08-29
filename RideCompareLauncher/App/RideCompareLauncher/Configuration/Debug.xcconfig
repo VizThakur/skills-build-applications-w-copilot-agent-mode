@@ -1,0 +1,13 @@
+// Debug build configuration for RideCompareLauncher.
+//
+// Default (empty) values so the project builds cleanly even before a
+// developer has created Secrets.xcconfig — AppConfiguration.swift treats an
+// empty value the same as "not configured" rather than crashing. See the
+// README's "Configure your Google API key" section.
+GOOGLE_PLACES_API_KEY =
+UBER_CLIENT_ID =
+
+// Your personal, untracked API keys go in Secrets.xcconfig (gitignored).
+// Copy Secrets.xcconfig.example to Secrets.xcconfig in this same directory
+// and fill in your own values.
+#include? "Secrets.xcconfig"

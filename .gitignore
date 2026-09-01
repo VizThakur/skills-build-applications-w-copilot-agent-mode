@@ -31,3 +31,12 @@ yarn-error.log*
 # Python files
 *.pyc
 __pycache__/
+
+# RideCompareLauncher (iOS)
+RideCompareLauncher/App/RideCompareLauncher/Configuration/Secrets.xcconfig
+RideCompareLauncher/.build/
+RideCompareLauncher/.swiftpm/
+RideCompareLauncher/**/xcuserdata/
+RideCompareLauncher/**/*.xcuserstate
+RideCompareLauncher/**/DerivedData/
+RideCompareLauncher/**/*.xcworkspace/xcuserdata/
